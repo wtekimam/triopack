@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5 {
+  font-family: Roboto; }
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.8em; }
+
+.topnav {
+  padding: 2em 0;
+  margin-bottom: 3em; }
+
+.crop {
+  overflow: hidden; }
+
+.footer {
+  background: #2D5C8E;
+  color: #fff; }
+
+.why-us {
+  display: grid;
+  grid-template-areas: "title why1 why2" "title why3 why4"; }
+
+.product-highlights__title {
+  background: #002E5B;
+  color: #fff; }
+
+.product-highlights__image {
+  width: auto;
+  height: 10rem;
+  align-content: center; }
+
+.blue-back {
+  background: #005A8E; }
+
+.content {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  background: red;
+  top: 25%;
+  left: 70%;
+  z-index: 9999;
+  transform: translate(-50%, -50%); }
+
+.news-image {
+  height: 23rem;
+  width: auto; }
+
+.news-title {
+  margin-bottom: 0 !important; }
+
+.date {
+  font-style: italic;
+  color: #545454; }
+
+.news-category__image {
+  width: auto;
+  height: 300px; }
+
+.product-category {
+  position: absolute;
+  bottom: 3rem;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  width: 100%; }
+
+/*# sourceMappingURL=base.css.map */
