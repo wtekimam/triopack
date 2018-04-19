@@ -2,9 +2,150 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <title>Triopack</title>
 </head>
 <body>
 
+<!--top navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Triopack logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+            <li class="nav-item">
+                <a class="nav-link" href="products-home.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--main area-->
+<div class="container-fluid contact-us__head">
+    <div class="container pl-5 pr-3 py-5">
+        <!--header-->
+        <div class="row">
+            <div class="col-lg-7">
+                <h1 class="ml-lg-5">Contact Us</h1>
+            </div>
+            <div class="col-lg-5">
+                <form class="contact-us__form p-3">
+                    <div class="form-row">
+                        <div class="form-group col-lg">
+                            <input type="text" class="form-control form-control-sm"
+                                   id="name-input"
+                                   placeholder="Name">
+                        </div>
+                        <div class="form-group col-lg">
+                            <input type="tel" class="form-control form-control-sm"
+                                   id="telephone-input" placeholder="Phone no.">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control form-control-sm"
+                               id="email-input" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control form-control-sm" id="message-input"
+                                  rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <!--TODO: change button color-->
+                    <button class="btn btn-primary mr-auto" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-5">
+    <div class="row">
+            <div class="col-lg">
+                <p>Kompleks Aldron Hero, Blok A-10 <br>
+                    Jl. Daan Mogot 119 Jakarta Barat 11510</p>
+            </div>
+            <div class="col-lg">
+                <p>(021) 56977704 & 56977706 <br>
+                    (021) 56977714 & 0816807097</p>
+            </div>
+            <div class="col-lg">
+                <p>triopack@centrin.net.id<br>
+                    sales@triopack.co.id</p>
+            </div>
+        </div>
+</div>
+
+<div class="container-fluid">
+    Put google maps here please
+</div>
+
+<!--footer only for contact us-->
+<div class="container-fluid footer py-3">
+    <div class="container">
+        <div class="row border-bottom">
+            <div class="col-lg">
+                <h3>Contact Info</h3>
+            </div>
+            <div class="col-lg">
+                <h3>Links</h3>
+            </div>
+            <div class="col-lg">
+                <h3>Products</h3>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-lg-4">
+                <h3>Triopack</h3>
+                <p>Kompleks Aldron Hero, Blok A-10 <br>
+                    Jl. Daan Mogot 119 Jakarta Barat 11510</p>
+                <p>(021) 56977704 & 56977706 <br>
+                    (021) 56977714 & 0816807097</p>
+                <p>triopack@centrin.net.id<br>
+                    sales@triopack.co.id</p>
+            </div>
+            <div class="col">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>News</p>
+                <p>Product</p>
+                <p>Project</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="col">
+                <p>Category 1</p>
+                <p>Category 2</p>
+                <p>Category 3</p>
+                <p>Category 4</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
