@@ -16,6 +16,10 @@ p {
   background: #2D5C8E;
   color: #fff; }
 
+.slider {
+  height: 70%;
+  width: auto; }
+
 .why-us {
   display: grid;
   grid-template-areas: "title why1 why2" "title why3 why4"; }
@@ -73,6 +77,10 @@ p {
 .contact-us__form {
   background-color: #2D5C8E;
   opacity: 0.9; }
+
+#map {
+  height: 400px;
+  width: 100%; }
 
 .about-us__wrapper {
   display: grid;
